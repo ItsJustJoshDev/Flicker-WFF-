@@ -1,0 +1,18 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: DieselFlicker.apk
+compressionType: false
+doNotCompress: []
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+resourcesAreCompressed: false
+sdkInfo:
+  minSdkVersion: '34'
+  targetSdkVersion: '34'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+version: 2.9.3
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

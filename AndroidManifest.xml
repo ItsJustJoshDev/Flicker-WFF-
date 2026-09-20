@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joshua.dieselflicker">
+
+    <uses-sdk
+        android:minSdkVersion="34"
+        android:targetSdkVersion="34" />
+
+    <uses-feature
+        android:name="android.hardware.type.watch"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA" />
+
+    <application
+        android:label="@string/watch_face_name"
+        android:hasCode="false"
+        android:allowBackup="false">
+
+        <property
+            android:name="com.google.wear.watchface.format.version"
+            android:value="4" />
+
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+    </application>
+</manifest>
